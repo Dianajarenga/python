@@ -29,3 +29,16 @@ def student_form():
     return record
 student_form()
 
+def flight_booking():
+    Airport=(input("AirPort :"))
+    Social_class=(input("Social Class :"))
+    Price=int(input("Price :"))
+    Payment_method=(input("Payment Method"))
+    Date=(input("Date :"))
+    seat=(input("Seat :"))
+    Expiry="23/09/2021"
+    Approved:bool=True
+    ticket=Airport,Approved,Social_class,Price,Payment_method,Date,Approved,seat,Expiry
+    print(f"Hello,{name},welcome to{Airport},you have booked for{Social_class},at Ksh{Price},through{Payment_method} is {Approved} \n your seat number is {seat},your flight is on{date},expiry{expiry}")
+    return ticket
+flight_booking()
